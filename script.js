@@ -66,3 +66,8 @@ function team_info()
 {
     window.open("https://linkedin.com/in/sonniiii", "_blank");
 }
+
+function coming_soon()
+{
+    window.open("pending.html", "_blank");
+}
