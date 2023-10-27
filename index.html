@@ -18,7 +18,6 @@
 	<!-- Menu -->
 	<div id="menu">
 		<canvas id="menu-background" onclick="close_menu()"></canvas>
-		<!-- <span id="menu-close-text" onclick="close_menu()">TAP ANYWHERE TO CLOSE</span> -->
 		<span id="menu-close-text" onclick="team_info()">With ❤️ By <u>Deepak Soni</u> & Team</span>
 		<div id="menu-container">
 			<div class="menu-item">Customer Helpline</div>
@@ -47,7 +46,9 @@
 
 		<div id="container">
 			<!-- Greeting Graphic -->
-			<img src="src/anim.gif" id="greeting-graphic">
+			<video id="greeting-graphic" autoplay loop muted>
+				<source src="src/modern-train.mp4" type="video/mp4">
+			</video>
 
 			<!-- Book Ticket Form -->
 			<div id="ticket-book-form">
