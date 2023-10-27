@@ -61,3 +61,8 @@ function close_menu()
 {
     document.querySelector("#menu").style.display = "none";
 }
+
+function team_info()
+{
+    window.open("https://linkedin.com/in/sonniiii", "_blank");
+}
