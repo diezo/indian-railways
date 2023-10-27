@@ -51,3 +51,13 @@ function hide_confirm_screen()
 {
     document.querySelector("#confirm-screen").style.display = "none";
 }
+
+function open_menu()
+{
+    document.querySelector("#menu").style.display = "block";
+}
+
+function close_menu()
+{
+    document.querySelector("#menu").style.display = "none";
+}
