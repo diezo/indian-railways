@@ -427,3 +427,37 @@ body
     display: inline-block;
     border-radius: 99999em;
 }
+
+@media (orientation: landscape)
+{
+    #main
+    {
+        width: 50vw;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    #header
+    {
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+
+    #container
+    {
+        width: 50vw;
+    }
+
+    #helpline-tabs
+    {
+        width: 50vw;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    #ticket-book-form
+    {
+        margin-top: 0;
+    }
+}
